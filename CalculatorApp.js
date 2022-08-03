@@ -1,7 +1,9 @@
 let log = console.log();
 
-var inputA;
+const inputA = "";
 
-inputA = prompt("Enter a word");
+function inputs() {
+    inputA += prompt("Enter a word");
+}
 
 log(inputA);
